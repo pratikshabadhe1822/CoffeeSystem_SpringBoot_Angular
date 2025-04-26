@@ -125,8 +125,7 @@ This project is licensed under the MIT License.
 # ✨ Thank you for visiting! ✨
 
 
-👤 Author
-Your Name
+👤 Pratiksha Badhe
 🔗 https://github.com/pratikshabadhe1822/CoffeeSystem_SpringBoot_Angular.git
 
 

@@ -1,59 +1,165 @@
-# CoffeeSystem
+---
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+# 🎁 CoffeeShopSystem
 
-## Development server
+## 📋 Overview
 
-To start a local development server, run:
+Welcome to the ** CoffeeShopSystem **!  
+Built with 💻 **Angular**, ☕ **Spring Boot**, and 🛢️ **Postgres**, this project helps manage donors with a modern and dynamic UI.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+•  ➕ Add new coffee items
+•  📝 Edit existing coffee item details
+•  👀 View detailed coffee item info
+•  ❌ Delete coffee items with confirmation
+•  ⚡ Instant updates without reloading the page
+•  🎨 Clean and simple Bootstrap design
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Technologies Used
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+| Frontend | Backend | Database | Styling |
+|:--------:|:-------:|:--------:|:-------:|
+| Angular 16 | Spring Boot | Postgres | Bootstrap 5 |
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🧰 Prerequisites
 
-To build the project run:
+Before you start, make sure you have:
 
-```bash
-ng build
-```
+- 🟢 Node.js (v14 or above)
+- 🅰️ Angular CLI (v12 or above)
+- ☕ Java JDK (v11 or above)
+- 🌱 Spring Boot (v2.7 or above)
+- 🛢️ PostgresSql 
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🏗️ Setup Instructions
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### 📦 Backend (Spring Boot)
 
-```bash
-ng test
-```
+1. Clone the repository:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/pratikshabadhe1822/CoffeeSystem_SpringBoot_Angular.git
+   ```
 
-For end-to-end (e2e) testing, run:
+2. Navigate to the backend project folder:
 
-```bash
-ng e2e
-```
+   ```bash
+   cd CoffeeSystem_SpringBoot_Angular /backend
+   ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+3. Update your MySQL database settings in `application.properties`.
 
-## Additional Resources
+4. Run the Spring Boot application:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+   ```bash
+   mvn spring-boot:run
+   ```
+
+✅ Backend runs at: `http://localhost:8090`
+
+---
+
+### 🎯 Frontend (Angular)
+
+1. Navigate to the frontend folder:
+
+   ```bash
+   cd CoffeeSystem_SpringBoot_Angular /frontend
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the Angular dev server:
+
+   ```bash
+   ng serve
+   ```
+
+✅ Frontend runs at: `http://localhost:4200`
+
+---
+
+## ✨ Outputs
+
+### 🏡 Home Page
+Displays a list of all coffee items with options to view, edit, or delete.
+(Example Screenshot Here if you want)
+---
+
+➕ Add Coffee Item
+Add a new coffee item with name and price.
+(Example Screenshot Here if you want)
+________________________________________
+✏️ Edit Coffee Item
+Modify existing coffee item details.
+(Example Screenshot Here if you want)
+________________________________________
+🗑️ Delete Coffee Item
+Confirm before deleting a coffee item.
+(Example Screenshot Here if you want)
+________________________________________
+🔗 API Endpoints
+Method	Endpoint	Description
+GET	/coffeeitems/all	Fetch all coffee items
+GET	/coffeeitems/{id}	Fetch coffee item by ID
+POST	/coffeeitems/register	Add a new coffee item
+PUT	/coffeeitems/update/{id}	Update coffee item
+DELETE	/coffeeitems/delete/{id}	Delete coffee item
+________________________________________
+📜 License
+This project is licensed under the MIT License.
+
+# ✨ Thank you for visiting! ✨
+
+
+👤 Author
+Your Name
+🔗 https://github.com/pratikshabadhe1822/CoffeeSystem_SpringBoot_Angular.git
+
+
+
+ScreenShots
+
+
+1.	AddCoffeeItem
+
+
+ 
+
+
+
+2.Display CoffeeItem
+
+
+
+ 
+
+
+
+
+
+3.View CoffeeItem
+
+
+ 
+
+
+
+
+
+4.Edit CoffeeItem
+
+ 

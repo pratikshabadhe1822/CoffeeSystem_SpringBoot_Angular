@@ -32,8 +32,8 @@ Built with 💻 **Angular**, ☕ **Spring Boot**, and 🛢️ **Postgres**, this
 
 Before you start, make sure you have:
 
-- 🟢 Node.js (v14 or above)
-- 🅰️ Angular CLI (v12 or above)
+- 🟢 Node.js (v17 or above)
+- 🅰️ Angular CLI (v17 or above)
 - ☕ Java JDK (v11 or above)
 - 🌱 Spring Boot (v2.7 or above)
 - 🛢️ PostgresSql 

@@ -1,0 +1,31 @@
+<div class="container mt-4">
+  <h2>Coffee Items</h2>
+  <a class="btn btn-success mb-3" routerLink="/coffeeitems/add">Add Coffee Item</a>
+  <table class="table table-bordered">
+    <thead class="table-light">
+      <tr>
+        <th>ID</th>
+        <th>Coffee Name</th>
+        <th>Price</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let coffeeItem of coffeeItems">
+        <td>{{ coffeeItem.coffeeId }}</td>
+        <td>{{ coffeeItem.coffeeName }}</td>
+        <td>{{ coffeeItem.price }}</td>
+        <td>
+          <a [routerLink]="['/coffeeitems', coffeeItem.coffeeId]">
+            <button class="btn btn-info btn-sm me-2">View</button>
+          </a>
+          <a [routerLink]="['/coffeeitems/edit', coffeeItem.coffeeId]">
+            <button class="btn btn-warning btn-sm me-2">Edit</button>
+          </a>
+          <button (click)="deleteCoffeeItem(coffeeItem.coffeeId!)">Delete</button>
+
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -135,6 +135,7 @@ ScreenShots
 
 
 1.	AddCoffeeItem
+![image](https://github.com/user-attachments/assets/6a8faeaa-2355-4f51-9582-27d909dd0a4d)
 
 
  
@@ -142,6 +143,7 @@ ScreenShots
 
 
 2.Display CoffeeItem
+![image](https://github.com/user-attachments/assets/d52543ae-98f3-43a5-8850-f8b249f49adc)
 
 
 
@@ -154,7 +156,8 @@ ScreenShots
 3.View CoffeeItem
 
 
- 
+ ![image](https://github.com/user-attachments/assets/29f1da94-2d33-4270-8b95-9d0dff85392c)
+
 
 
 
@@ -162,4 +165,5 @@ ScreenShots
 
 4.Edit CoffeeItem
 
- 
+ ![image](https://github.com/user-attachments/assets/065c2ff0-150e-4362-9d46-ce63f70474f0)
+
